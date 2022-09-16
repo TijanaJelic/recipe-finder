@@ -4,7 +4,7 @@
 - Get random recipe
 - See recipe details
 
-This project was made in June 2021.
+This project was made in June 2021. <br />
 **Techstack:** HTML, CSS and vanilla JavaScript
 
 ## Demo: 

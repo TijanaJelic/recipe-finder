@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Recipe Finder</title>
+</head>
+<body>
+
+    <div class="cover-container show">
+        <h1>Recipe Finder</h1>
+    </div>
+
+    <div class="container">
+        <div class="search-box">
+            <h1>Recipe Finder</h1>
+            <form class="search-input" id="submit">
+                <input type="text" id="search" placeholder="Search for meal" aria-label="Search for meals by typing keyword">
+                <button class="search-btn" type="submit">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </form>
+            <button class="random-btn" id="random">Get random recipe</button>
+        </div>
+
+        <div class="invalid-search">
+            <p>Please enter a search term</p>
+        </div>
+
+        <p class="no-result"></p>
+        <div id="meals" class="meals">
+            <div class="single-meal"></div>
+        </div>
+
+        <div class="single-meal-container" aria-hidden="true">
+            <div class="recipe">
+                <div class="meal-info">
+                    <button class="close-single-meal">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                    <h2 class="meal-name"></h2>
+                    <img alt="" class="meal-img">
+                    <div class="meal-details">
+                        <p class="category"></p>
+                        <p class="area"></p>
+                    </div>
+                </div>
+                <div class="meal-about">
+                    <div class="meal-instructions"></div>
+                    <div class="meal-ingredients">
+                        <div class="meal-ingredient"></div>
+                    </div>
+                </div>
+                <p class="link"></p>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://kit.fontawesome.com/399258c3a4.js" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>

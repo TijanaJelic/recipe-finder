@@ -1,11 +1,14 @@
 # Description
 
+Recipe Finder is web application for searching through recipes. All recipes are getting from API. Project is built with vanilla JS and CSS.
+
+You can:
 - Search for a recipe by name
 - Get random recipe
 - See recipe details
 
 This project was made in June 2021. <br />
-**Techstack:** HTML, CSS and vanilla JavaScript
+**Tech stack:** HTML, CSS and vanilla JavaScript
 
 ## Demo: 
 

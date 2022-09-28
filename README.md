@@ -1,6 +1,6 @@
 # Description
 
-Recipe Finder is web application for searching through recipes. All recipes are getting from API.
+Recipe Finder is web application for searching through recipes. All recipes are getting from TheMealDB.
 
 You can:
 - Search for a recipe by name
